@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+    <head>
+        <title>Personal Details</title>
+        <style>
+            body{
+                font-family: 'Times New Roman', Times, serif;
+                background-color: cornsilk;
+            }
+            
+        </style>
+
+    </head>
+    <body>
+        <center>
+        <h2>Personal Details</h2>
+        <form >
+            
+        Name:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <input type="text" name="name" placeholder="Enter your name" required/>
+        <br><br>
+        
+        Password:
+        &nbsp; &nbsp; &nbsp; &nbsp;
+        <input type="password" name="password" placeholder="Enter the password" required/>
+        <br><br>
+
+        Email:
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <input type="email" name="email" placeholder="Enter your email"/>
+        <br><br>
+
+        Address:
+        &nbsp; &nbsp; &nbsp; &nbsp;
+        <textarea rows="4" cols="20">
+        </textarea>
+        <br><br>
+
+        Age:
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        <input type="number" min="1"/>
+        <br><br>
+
+        State:
+        &nbsp; &nbsp; &nbsp; &nbsp;
+        <select name="select">
+            <option value="">Select state</option>
+            <option>Andhra Pradesh</option>
+            <option>Arunachal Pradesh</option>
+            <option>Assam</option>
+            <option>Bihar</option>
+            <option>Goa</option>
+            <option>Gujarat</option>
+            <option>Hariyana</option>
+            <option>Himachal Pradesh</option>
+            <option>Kerala</option>
+            <option>Madhya Pradesh</option>
+            <option>Maharashtra</option>
+            <option>Panjab</option>
+            <option>Rajasthan</option>
+            <option>Tamil Nadu</option>
+            <option>Telangana</option>
+            <option>Uttar Pradesh</option>
+            <option>Uttarakhand</option>
+        </select>
+        <br><br>
+
+        Gender:
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="gender" value="Other">Other
+        <br><br>
+
+        Hobbies:
+        <input type="checkbox" name="hobbies" value="Sketch"/>Sketch
+        <input type="checkbox" name="hobbies" value="Football"/>Football
+        <input type="checkbox" name="hobbies" value="Cooking"/>Cooking
+        <br><br>
+
+        Upload Image:
+        &nbsp; &nbsp;
+        <input type="file" name="uimage" value="upload_file">
+        <br><br>
+
+        <input type="reset"  value="Reset"/>
+        <input type="submit"  value="Submit"/>
+
+        </form> 
+        </center>
+    </body>
+</html>
