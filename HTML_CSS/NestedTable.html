@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <center>
+            <h2>Student data</h2>
+            <hr width="50%">
+        </center>
+    
+
+    <main>
+        <center>
+        <section id="form">
+            <form>
+                <fieldset>
+
+                    <legend><strong>Personal Information</strong></legend>
+
+                    <table cellpadding="8">
+                    
+                    <tr>
+                        <td><label for="name">Enter your name:</label></td>
+                        <td><input type="text" id="name" name="name" placeholder="Enter your name..." required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="email">Enter your email:</label></td>
+                        <td><input type="email" id="email" name="email" placeholder="Enter your email..." required></td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label >Enter your gender:</label>
+                        </td>
+                        <td>
+                            <table cellpadding="3">
+                                <tr>
+                                    <td><input type="radio" id="female" name="gender" value="Female"></td>
+                                    <td><label for="female">Female</label></td>
+                                    <td><input type="radio" id="male" name="gender" value="Male"></td>
+                                    <td><label for="male">Male</label></td>
+                                    <td><input type="radio" id="other" name="gender" value="Other"></td>
+                                    <td><label for="other">Other</label></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td><label for="dob">Enter your DOB:</label></td>
+                        <td><input type="date" id="dob" name="dob" required></td>
+                    </tr>
+                    
+                    </table>
+                </fieldset>
+
+                <br>
+                
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+            </form>
+        </section>
+        </center>
+    </main>
+
+    <footer>
+        <center>
+            <hr width="50%">
+            <small>© Student Data Form</small>
+        </center>
+        
+    </footer>
+</body>
+</html>
