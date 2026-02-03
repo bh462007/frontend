@@ -1,0 +1,14 @@
+button{
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    margin: 50;
+    background-color: aliceblue;
+    border-style: outset;
+    padding: auto;
+}
+
+.news_heading{
+    border-left: 4px solid rgb(75, 75, 255);
+}

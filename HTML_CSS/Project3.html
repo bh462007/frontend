@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Tajakhabar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="button.css" type="text/css">
+        <style>
+            
+            /*   *{
+                color: #656D3F;
+            }
+            */
+
+            /*body{
+                background-image: url("news.jpg");
+                background-repeat: repeat-x;
+                background-repeat: repeat-y;
+            }*/
+
+            h3{
+                color: #84934A;
+                text-decoration: solid;
+                text-align: justify;
+            }
+
+            
+            #form{
+                color: rebeccapurple;
+                text-align: center;
+            }
+
+            
+            .footer_css{
+                color: #656D3F;
+                size: 5;
+                font-style: italic;
+                text-align: center;
+                font-size: medium;
+                
+            }
+        </style>
+    </head>
+    
+    <body bgcolor="#ECECEC">
+        <header style="background-color: burlywood; ">
+    <table width="100%">
+        <tr>
+            <td width="5%"></td>
+            <td align="left">
+                <h1>
+                    <font face="Times New Roman" color="#656D3F" size="5">
+                        Welcome to Taja-khabar
+                    </font>
+                </h1>
+            </td>
+
+            <td align="right">
+                <a href="#home">Home</a>&nbsp;&nbsp;
+                <a href="#articles">Articles</a>&nbsp;&nbsp;
+                <a href="#contact">Contact</a>
+            </td>
+            <td width="5%"></td>
+        </tr>
+    </table>
+</header>
+
+        
+        <main>
+            <hr>
+
+            <section id="articles">
+                <h2><font color="#84934A">Latest News</font></h2>
+                
+                <article >
+                    <h3><font color="#E9762B" class="news_heading">Gold rate increased?</font></h3>
+                    <p ><a href="https://www.bing.com/ck/a?!&&p=d10a6cc7209bf54999dede8a89b878d9b3453420074092d07bd3e9f3ee46d034JmltdHM9MTc2OTA0MDAwMA&ptn=3&ver=2&hsh=4&fclid=3dbecf36-c547-61e8-2258-dcb4c1476fe9&psq=gold+rate+today&u=a1aHR0cHM6Ly9nb2xkcmF0ZS5jb20vZW4vZ29sZC9pbmRpYQ" target="_blank">Gold</a> prices in India have crossed the <em>₹1,50,000</em> mark <b>per 10 grams</b> as of 21 Jan 2026, creating headlines and raising questions among investors and buyers. This sharp move is not happening in isolation.</p>
+                    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque est aliquam omnis molestiae nesciunt consectetur, totam eius delectus ad veniam voluptatum impedit iste, odit perspiciatis veritatis! Vero consectetur quam explicabo.</p>
+                </article>
+                
+                <br>
+
+                <article >
+                    <h3><font color="#E9762B" class="news_heading">MET utsav is coming...</font></h3>
+                    <p ><a href="https://www.bing.com/ck/a?!&&p=1b5a43631362c5e490b137348029730ab6cb26694ae72c4656edb1cc028a7179JmltdHM9MTc2OTA0MDAwMA&ptn=3&ver=2&hsh=4&fclid=3dbecf36-c547-61e8-2258-dcb4c1476fe9&psq=met+bhujbal+knowledge+city+nashik&u=a1aHR0cHM6Ly9tZXRiaHVqYmFsa25vd2xlZGdlY2l0eS5hYy5pbi8" target="_blank">MET</a> BKC Nasik one of the reputed collage known for it's <i><u>beautiful architecture and cleanliness</u></i>, now is going to held it's popular "The MET utsav", get ready to celebrate... </p>
+                    <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum nemo expedita, ratione provident iste rem enim similique dolor incidunt esse, est eligendi fuga natus aut blanditiis, quae nisi voluptas! Libero.</p>
+                </article>
+                
+            </section>
+
+            <hr>
+
+            <aside>
+                <h3><font color="#84934A">About me...</font></h3>
+                <p>I am a <strong>tech</strong> student </p>
+            </aside>
+
+            <hr>
+
+            <section>
+    <h2 style="color:#84934A;" id="contact">Submit News</h2>
+
+    <form id="form">
+        <fieldset>
+            <legend>News Submission</legend>
+
+            <table cellpadding="8">
+                <!-- Name -->
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="Enter your name..." required></td>
+                </tr>
+
+                <!-- E-mail -->
+                <tr>
+                    <td><label for="email">E-mail:</label></td>
+                    <td><input type="email" id="email" name="email" placeholder="Enter your e-mail..." required></td>
+                </tr>
+
+                <!-- News Title -->
+                <tr>
+                    <td><label for="news">News Title:</label></td>
+                    <td><input type="text" id="news" name="news_title"></td>
+                </tr>
+
+                <!-- Category (Dropdown) -->
+                <tr>
+                    <td><label for="category">Category:</label></td>
+                    <td>
+                        <select id="category" name="category" required>
+                            <option value="">--select--</option>
+                            <option value="Tech">Technology</option>
+                            <option value="Politics">Politics</option>
+                            <option value="Sports">Sports</option>
+                            <option value="Education">Education</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <!-- News Content (Textarea) -->
+                <tr>
+                    <td><label for="content">News Content:</label></td>
+                    <td>
+                        <textarea id="content" name="news_content" rows="5" cols="30" placeholder="Enter your news content here..." required></textarea>
+                    </td>
+                </tr>
+
+                <!-- Buttons -->
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </td>
+                </tr>
+            </table>
+
+        </fieldset>
+    </form>
+</section>
+
+        <hr>
+    </main>
+        
+        <footer style="background-color: burlywood;">
+            <p class="footer_css">© Copyright</p>
+            <p class="footer_css">MET student.</p>
+        </footer>
+        
+    </body>
+    
+</html>
